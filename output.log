@@ -1,0 +1,85 @@
+2023-12-06 12:44:45:086-Create an order
+2023-12-06 12:45:02:244-Create an order
+2023-12-06 12:45:19:980-Create an order
+2023-12-06 12:45:20:512-Create an order
+2023-12-25 15:05:25:325-[PaymentController]: Create an payment
+2023-12-25 15:40:28:937-[PaymentController]: Create an payment
+2023-12-25 15:40:58:314-[PaymentController]: Create an payment
+2023-12-25 15:42:08:911-[PaymentController]: Create an payment
+2023-12-30 10:25:40:825-[PaymentController]: Create an payment
+2023-12-30 10:27:42:969-[PaymentController]: Create an payment
+2023-12-30 10:28:08:711-[PaymentController]: Create an payment
+2023-12-30 10:29:41:741-[OrderController]: Create an order
+2023-12-30 10:32:08:293-[OrderController]: Create an order
+2023-12-31 14:53:02:042-[OrderService]: Create an order
+2023-12-31 14:53:02:060-[OrderService]: Create an order failed
+2023-12-31 14:54:07:713-[OrderService]: Create an order
+2023-12-31 14:56:06:741-[OrderService]: Create an order failed
+2023-12-31 14:56:41:234-[OrderService]: Create an order
+2023-12-31 14:56:41:288-[OrderService]: Create an order failed
+2023-12-31 14:57:28:617-[OrderService]: Create an order
+2023-12-31 14:58:02:680-[OrderService]: Create an order failed
+2023-12-31 14:58:31:015-[OrderService]: Create an order
+2023-12-31 14:58:31:046-[OrderService]: Create an order success
+2023-12-31 15:24:19:021-[OrderController]: Creating an order...
+2023-12-31 15:24:19:058-[OrderService]: Create an order success
+2023-12-31 15:24:19:217-[PaymentController]: Creating an payment...
+2023-12-31 15:24:35:521-[OrderService]: Update an order status to payment succeed
+2024-01-01 00:49:16:035-[OrderController]: Creating an order...
+2024-01-01 00:49:16:074-[OrderService]: Create an order success
+2024-01-01 00:49:16:227-[PaymentController]: Creating an payment...
+2024-01-01 00:49:16:330-[PaymentService]: Update balance failed null
+2024-01-01 00:49:16:347-[OrderService]: Update an order status to payment succeed
+2024-01-01 00:56:23:311-[OrderController]: Creating an order...
+2024-01-01 00:56:23:320-[OrderService]: Create an order success
+2024-01-01 00:56:23:433-[PaymentController]: Creating an payment...
+2024-01-01 00:56:23:505-[PaymentService]: Update balance failed null
+2024-01-01 00:56:23:541-[OrderService]: Update an order status to payment failed
+2024-01-01 00:57:57:008-[OrderController]: Creating an order...
+2024-01-01 00:57:57:016-[OrderService]: Create an order success
+2024-01-01 00:57:57:123-[PaymentController]: Creating an payment...
+2024-01-01 00:57:57:197-[PaymentService]: Update balance failed null
+2024-01-01 00:57:57:246-[OrderService]: Update an order status to payment failed
+2024-01-01 00:58:58:757-[OrderController]: Creating an order...
+2024-01-01 00:58:58:785-[OrderService]: Create an order success
+2024-01-01 00:58:58:894-[PaymentController]: Creating an payment...
+2024-01-01 00:58:58:975-[PaymentService]: Update balance failed 4
+2024-01-01 00:58:59:003-[OrderService]: Update an order status to payment failed
+2024-01-01 01:00:48:144-[OrderController]: Creating an order...
+2024-01-01 01:00:48:155-[OrderService]: Create an order success
+2024-01-01 01:00:48:269-[PaymentController]: Creating an payment...
+2024-01-01 01:00:48:344-[PaymentService]: Update balance failed 5
+2024-01-01 01:00:48:354-[OrderService]: Update an order status to payment succeed
+2024-01-01 01:02:51:591-[OrderController]: Creating an order...
+2024-01-01 01:02:51:602-[OrderService]: Create an order success
+2024-01-01 01:02:51:621-[PaymentController]: Creating an payment...
+2024-01-01 01:02:51:635-[PaymentService]: Update balance failed 6
+2024-01-01 01:02:51:648-[OrderService]: Update an order status to payment failed
+2024-01-01 01:07:18:767-[OrderController]: Creating an order...
+2024-01-01 01:07:18:780-[OrderService]: Create an order success
+2024-01-01 01:07:18:883-[PaymentController]: Creating an payment...
+2024-01-01 01:07:18:950-[PaymentService]: Update balance failed 7
+2024-01-01 01:07:18:961-[OrderService]: Update an order status to payment failed
+2024-01-01 01:07:23:853-[OrderController]: Creating an order...
+2024-01-01 01:07:23:867-[OrderService]: Create an order success
+2024-01-01 01:07:23:878-[PaymentController]: Creating an payment...
+2024-01-01 01:07:23:891-[PaymentService]: Charge payment success 8
+2024-01-01 01:07:24:006-[RestaurantController]: Create an dish
+2024-01-01 01:07:24:027-[OrderService]: Update an order status to payment succeed
+2024-01-01 01:08:25:454-[OrderController]: Creating an order...
+2024-01-01 01:08:25:465-[OrderService]: Create an order success
+2024-01-01 01:08:25:493-[PaymentController]: Creating an payment...
+2024-01-01 01:08:25:505-[PaymentService]: Update balance failed 9
+2024-01-01 01:08:25:511-[OrderService]: Update an order status to payment failed
+2024-01-01 01:09:13:422-[OrderController]: Creating an order...
+2024-01-01 01:09:13:451-[OrderService]: Create an order success
+2024-01-01 01:09:13:464-[PaymentController]: Creating an payment...
+2024-01-01 01:09:13:493-[PaymentService]: Charge payment success 10
+2024-01-01 01:09:13:516-[PaymentService]: Rollback charge payment for id 10
+2024-01-01 01:09:13:524-[OrderService]: Update an order status to payment succeed
+2024-01-01 01:11:02:957-[OrderController]: Creating an order...
+2024-01-01 01:11:02:990-[OrderService]: Create an order success
+2024-01-01 01:11:03:114-[PaymentController]: Creating an payment...
+2024-01-01 01:11:03:193-[PaymentService]: Charge payment success 11
+2024-01-01 01:11:03:218-[PaymentService]: Rollback charge payment for id 11
+2024-01-01 01:11:03:227-[OrderService]: Update an order status to payment failed

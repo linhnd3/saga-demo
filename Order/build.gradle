@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.2.0'
+    id 'io.spring.dependency-management' version '1.1.4'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.kafka:spring-kafka'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.kafka:spring-kafka-test'
+
+    implementation(project(":Core")) {
+        exclude group: "org.springframework.boot", module: "spring-boot-starter-tomcat"
+        exclude group: "org.springframework.boot", module: "spring-boot-starter-jetty"
+        exclude group: "org.springframework.boot", module: "spring-boot-starter-undertow"
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
